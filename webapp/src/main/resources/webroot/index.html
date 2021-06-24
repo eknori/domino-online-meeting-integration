@@ -232,7 +232,7 @@
     <!-- banner-section -->
     <section class="banner-section domino-ui-banner ">
 
-        <img src="https://www.hcltechsw.com/wps/wcm/connect/717a1d5f-6f68-4da8-9f00-5d6a33243513/Banner-new.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-717a1d5f-6f68-4da8-9f00-5d6a33243513-nDDiGHJ"
+        <img src="${dominoImage}"
             class="img-responsive"
             style="object-fit:cover; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 
@@ -248,7 +248,7 @@
                     <div class="product-logo">
                         <a href="https://hcltechsw.com/wps/portal/products/domino/home">
                             <span class="hide-regular">
-                                <img src="https://hcltechsw.com/wps/wcm/connect/de479e1c-ba2e-4f77-90d1-d91ec640eafb/HCL_Domino_White.svg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-de479e1c-ba2e-4f77-90d1-d91ec640eafb-nr.ulQd"
+                                <img src="${dominoBannerImage}"
                                     class="img-responsive">
                             </span>
                             <br /><br />
@@ -260,15 +260,11 @@
 
                 <div class="col-sm-6 mt-50 col-text ">
                     <h1 class="bold text-white banner-title">
-                        The World is Powered by HCL Domino
+                        ${dominoHeading}
                     </h1>
 
                     <h4 class="text-white">
-                        <p dir="ltr">Domino powers the apps that run your business.
-Domino v12 is a major milestone that enriches the
-app-development ecosystem for business users  and
-professional IT developers —  while always providing
-essential business value and low TCO.</p>
+                        <p dir="ltr">${dominoTagLine}</p>
 
                     </h4>
 
@@ -298,7 +294,7 @@ essential business value and low TCO.</p>
       <div class="col-sm">
         <ul class="list-unstyled">
           <li>
-            &copy; HCL Software 2021
+            DOMI ${project.version} &copy; HCL Software 2021
           </li>
         </ul>
       </div>
